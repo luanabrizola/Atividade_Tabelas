@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horario de aulas</title>
+    
+
+</head>
+
+<style>
+
+    h1{
+        font-family: Arial, Helvetica, sans-serif ;
+        text-align: center;
+    }
+
+    
+    table{
+        border-collapse: collapse;
+        width: 500px;
+        margin: auto;
+        text-align: center;
+    }
+
+    
+    td{
+            border: 1px solid black;
+            text-align: center;
+            font-size: larger;
+        }
+
+    tr{
+            background-color: dimgray;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white
+            ;
+        }
+
+    thead{
+            border: 1px solid black ;
+            background-color: dimgray;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    .turno{
+        background-color: rgb(172, 170, 170);
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: larger;
+    }
+    .codigo{
+        background-color: dimgray;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: x-small;
+    }
+    .horario{
+        background-color: white;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .vazio{
+        background-color: white ;
+    }
+    .intervalo{
+        background-color: rgb(214, 207, 207);
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: small;
+    
+    }
+
+</style>
+
+
+<body>
+    <h1> Horário  </h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="7">SEMANA</th>
+            </tr>
+        </thead>  
+        
+        <tbody>
+            <tr>
+                <td colspan="2">Horario</td>
+                <td>Segunda</td>
+                <td>Terça</td>
+                <td>Quarta</td>
+                <td>Quinta</td>
+                <td>Sexta</td>
+            </tr>
+            <tr>
+                <td colspan="7" class="turno">Manhã</td>
+            </tr>
+            <tr>
+                <td class="codigo">M1</td>
+                <td class="horario">07:30 - 08:20</td>
+                <td class="vazio">&nbsp;</td>
+                <td class="vazio">&nbsp;</td>
+                <td class="vazio">&nbsp;</td>
+                <td class="vazio">&nbsp;</td>
+                <td class="vazio">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="codigo">M2</td>
+                <td class="horario">08:20 - 09:10</td>
+                <td class="vazio">&nbsp;</td>
+                <td class="vazio">&nbsp;</td>
+                <td class="vazio">&nbsp;</td>
+                <td class="vazio">&nbsp;</td>
+                <td class="vazio">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="codigo">M3</td>
+                <td class="horario">09:10 - 10:00</td>
+                <td class="vazio">&nbsp;</td>
+                <td class="vazio">&nbsp;</td>
+                <td class="vazio">&nbsp;</td>
+                <td class="vazio">&nbsp;</td>
+                <td class="vazio">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="intervalo" colspan="7">Intervalo</td>
+            </tr>
+            <tr>
+                <td class="codigo">M4</td>
+                <td class="horario">10:20 - 11:10</td>
+                <td class="vazio">&nbsp;</td>
+                <td class="vazio">&nbsp;</td>
+                <td class="vazio">&nbsp;</td>
+                <td class="vazio">&nbsp;</td>
+                <td class="vazio">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="codigo">M5</td>
+                <td class="horario">11:10 - 12:00</td>
+                <td class="vazio">&nbsp;</td>
+                <td class="vazio">&nbsp;</td>
+                <td class="vazio">&nbsp;</td>
+                <td class="vazio">&nbsp;</td>
+                <td class="vazio">&nbsp;</td>
+            </tr>
+            <tr>
+                <td colspan="7" class="turno">Tarde</td>
+            </tr>
+            <tr>
+                <td class="codigo">T1</td>
+                <td class="horario">13:00 - 13:50</td>
+                <td class="vazio">&nbsp;</td>
+                <td class="vazio">&nbsp;</td>
+                <td class="vazio">&nbsp;</td>
+                <td class="vazio">&nbsp;</td>
+                <td class="vazio">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="codigo">T2</td>
+                <td class="horario">13:50 - 14:40</td>
+                <td class="vazio">&nbsp;</td>
+                <td class="vazio">&nbsp;</td>
+                <td class="vazio">&nbsp;</td>
+                <td class="vazio">&nbsp;</td>
+                <td class="vazio">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="codigo">T3</td>
+                <td class="horario">14:40 - 15:50</td>
+                <td class="vazio">&nbsp;</td>
+                <td class="vazio">&nbsp;</td>
+                <td class="vazio">&nbsp;</td>
+                <td class="vazio">&nbsp;</td>
+                <td class="vazio">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="intervalo" colspan="7">Intervalo</td>
+            </tr>
+            <tr>
+                <td class="codigo">T4</td>
+                <td class="horario">15:50 - 16:40</td>
+                <td class="vazio">&nbsp;</td>
+                <td class="vazio">&nbsp;</td>
+                <td class="vazio">&nbsp;</td>
+                <td class="vazio">&nbsp;</td>
+                <td class="vazio">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="codigo">T5</td>
+                <td class="horario">16:40 - 17:30</td>
+                <td class="vazio">&nbsp;</td>
+                <td class="vazio">&nbsp;</td>
+                <td class="vazio">&nbsp;</td>
+                <td class="vazio">&nbsp;</td>
+                <td class="vazio">&nbsp;</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+
+</html>
